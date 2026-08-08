@@ -1,0 +1,20 @@
+{
+  "promptDelete": false,
+  "defaultViewMode": "preview",
+  "livePreview": true,
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "trashOption": "none",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./99_Attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_Index",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "spellcheck": false
+}

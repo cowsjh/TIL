@@ -1,0 +1,70 @@
+/* ─────────────────────────────────────────────────────
+   PDF Export — website(02_Career/Website) 스타일 이식
+   범위: 인라인 코드 + 콜아웃만 (PDF 내보내기 시에만 적용)
+   ───────────────────────────────────────────────────── */
+
+@media print {
+
+  /* ─── Inline code (style.css .md-body code) ───────── */
+  .markdown-preview-view :not(pre) > code {
+    font-family: 'JetBrains Mono', 'Menlo', 'Consolas', monospace;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #1a1a1a;
+    background: #e0e0e0;
+    border-radius: 3px;
+    padding: 2px 6px;
+  }
+
+  /* ─── Code block (style.css .md-body pre) ─────────── */
+  .markdown-preview-view pre {
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+  }
+  .markdown-preview-view pre code {
+    font-family: 'JetBrains Mono', 'Menlo', 'Consolas', monospace;
+    font-size: 0.9em;
+    color: #1a1a1a;
+    background: none;
+    padding: 0;
+  }
+
+  /* ─── Callouts (style.css .md-alert) ──────────────── */
+  .callout {
+    border-left: 3px solid rgb(var(--callout-color));
+    border-radius: 0;
+    background: rgba(var(--callout-color), 0.5);
+    padding: 14px 18px;
+    margin: 28px 0;
+    break-inside: avoid;
+  }
+
+  .callout-title {
+    color: rgb(var(--callout-color));
+    font-size: 0.85em;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    padding: 0;
+  }
+
+  /* 웹사이트 md-alert에는 아이콘이 없음 */
+  .callout-icon { display: none; }
+
+  .callout-content { padding: 0; }
+  .callout-content p:last-child { margin-bottom: 0; }
+
+  /* 타입별 색상 — 웹사이트 팔레트로 오버라이드 */
+  .callout[data-callout="note"]      { --callout-color: 68, 147, 248; }  /* #4493f8 */
+  .callout[data-callout="tip"],
+  .callout[data-callout="hint"]      { --callout-color: 63, 185, 80; }   /* #3fb950 */
+  .callout[data-callout="important"] { --callout-color: 171, 125, 248; } /* #ab7df8 */
+  .callout[data-callout="warning"],
+  .callout[data-callout="attention"] { --callout-color: 210, 153, 34; }  /* #d29922 */
+  .callout[data-callout="caution"],
+  .callout[data-callout="error"],
+  .callout[data-callout="danger"]    { --callout-color: 248, 81, 73; }   /* #f85149 */
+}

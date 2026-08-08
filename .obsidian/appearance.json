@@ -1,0 +1,8 @@
+{
+  "accentColor": "#fdce26",
+  "showRibbon": true,
+  "interfaceFontFamily": "Noto Sans KR",
+  "enabledCssSnippets": [
+    "pdf-export"
+  ]
+}
