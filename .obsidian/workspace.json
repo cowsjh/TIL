@@ -15,10 +15,12 @@
                 "id": "cab8bf0ea4513b29",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
+                  "type": "pdf",
+                  "state": {
+                    "file": "TIL/class-note/080326/1강. Physical AI 개요와 연산 분담.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "1강. Physical AI 개요와 연산 분담"
                 }
               }
             ]
@@ -220,8 +222,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "f566a749ce8966ad",
+  "active": "cab8bf0ea4513b29",
   "lastOpenFiles": [
+    "TIL/class-note/080326/0강. 오리엔테이션. 로봇은 왜 필요하고, 왜 배우는가.pdf",
+    "TIL/class-note/080326/0-0. OT.md",
     "TIL/class-note/080626/강사노트/05_Python-프로그래밍_KANT.pdf",
     "TIL/class-note/080526/강사 노트/04_git과협업워크플로우.pdf",
     "TIL/class-note/080726/노트.md",
@@ -240,8 +244,6 @@
     "TIL/class-note/080426/2강. 로봇 소프트웨어 스택과 실시간성.pdf",
     "TIL/class-note/080426/080426리뷰.md",
     "TIL/class-note/080326/1강. Physical AI 개요와 연산 분담.pdf",
-    "TIL/class-note/080326/0강. 오리엔테이션. 로봇은 왜 필요하고, 왜 배우는가.pdf",
-    "TIL/class-note/080326/0-0. OT.md",
     "TIL/Level01/080726/0806_복습.md",
     "TIL/Level01/080626/venv_Numpy.md",
     "TIL/Level01/080526/git.md",
