@@ -21,10 +21,10 @@
 tf2 는 3가지의 좌표 프레임을 계산한다. 월드, 객체, 타겟.
 [Introducing tf2 — ROS 2 Documentation: Foxy documentation](https://docs.ros.org/en/foxy/Tutorials/Intermediate/Tf2/Introduction-To-Tf2.html)
 터틀 심의 예제를 보면 객체가 타겟을 따라간다. broadcaster 에서 객체의 좌표값을 받고 두 객체의 좌표 차이를 계산하여 따라가게 하는것이다.
-![[Pasted image 20260811213316.png]]
+![tf2 좌표 프레임 예제](./images/tf2-frames.png)
 
 3개의 좌표는 아래와 같은 방식으로 연결 된다.
-![[Pasted image 20260811213611.png]]
+![tf2 좌표 연결 방식](./images/tf2-connection.png)
 
 
 
@@ -35,4 +35,4 @@ tf2 는 3가지의 좌표 프레임을 계산한다. 월드, 객체, 타겟.
 - 특정 주기나 IP를 설정 하여 불필요한 간섭을 막을 수 있음.
 - 여러 로봇을 컴퓨터 한대로 제어 가능
 
-![[Pasted image 20260811215718.png]]
+![DDS 개념도](./images/dds.png)
