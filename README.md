@@ -6,7 +6,4 @@
     - 08.07.26 [0806 복습](./Level01/080726/0806_복습.md)
     - 08.11.26 [ROS2](./Level01/081126/ros2.md)
     - 08.12.26 [QoS, DDS](./Level01/081226/qos.md)
-    - 08.13.26 [라이프사이클 노드](./Level01/081326/lifecycle_node.md)
-    - 08.13.26 [colcon 빌드](./Level01/081326/colcon_build.md)
-    - 08.13.26 [Composition (노드 합성)](./Level01/081326/composition.md)
-    - 08.13.26 [토픽(Topic)](./Level01/081326/topic.md)
+    - 08.13.26 [라이프사이클 노드](./Level01/081326/lifecycle_node.md), [colcon 빌드](./Level01/081326/colcon_build.md), [Composition (노드 합성)](./Level01/081326/composition.md), [토픽(Topic)](./Level01/081326/topic.md)
