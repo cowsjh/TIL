@@ -13,3 +13,4 @@
     - [반대칭 행렬](./Math/skew_symmetric_matrix.md)
 
     - [시그모이드 함수](./Math/sigmoid.md)
+    - [로그법칙](./Math/log_laws.md)
