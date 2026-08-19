@@ -1,5 +1,5 @@
 주어진 벡터를 이용하여 직교 벡터를 만들어 내는 공식
-두벡터의 [[정사영 Orthogonal Projection|정사영]]만 알고 있다면 너무 쉽게 끝난다.
+두벡터의 [정사영](./orthogonal_projection.md)만 알고 있다면 너무 쉽게 끝난다.
 
 ![Gram-Schmidt 그림](./images/gram_schmidt.png)
 그림은 참조만
