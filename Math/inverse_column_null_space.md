@@ -15,7 +15,7 @@
 ```
 
 각 변수에 곱해진 계수만 따로 떼어 행렬 `A`로 묶고, 미지수를 벡터 `x=(x,y)`로, 우변 상수를 벡터 `v=(-3,4)`로 두면 이 두 줄짜리 연립방정식은 벡터 방정식 한 줄이 된다:
-$$\begin{Bmatrix}2&5\\4&0\end{Bmatrix} \begin{Bmatrix} x\\y\end{Bmatrix} = \begin{Bmatrix} -3\\4\end{Bmatrix}$$
+$$\begin{Bmatrix}2&5\\\\4&0\end{Bmatrix} \begin{Bmatrix} x\\\\y\end{Bmatrix} = \begin{Bmatrix} -3\\\\4\end{Bmatrix}$$
 $$Ax = v$$
 여기서 이게 왜 "그냥 표기를 압축한 것" 이상인지가 핵심이다.
 `A`는 선형변환(공간을 밀고 당기고 회전시키는 함수)이고, `Ax=v`를 푼다는 건 **"변환 A를 통과시켰을 때 v 자리에 착지하는 벡터 x는 어디 있었는가"**를 거꾸로 찾는 문제와 정확히 같다. 대수 문제가 "공간을 되감는" 기하 문제로 번역되는 지점이다.
