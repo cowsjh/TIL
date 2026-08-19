@@ -11,11 +11,11 @@ $$A = -A^T \quad \Longleftrightarrow \quad A + A^T = 0$$
 
 벡터 `a = (a1, a2, a3)`를 아래처럼 행렬로 바꾼 것을 `[a]×`라 쓴다:
 
-$$[a]_\times = \begin{bmatrix} 0 & -a_3 & a_2 \\ a_3 & 0 & -a_1 \\ -a_2 & a_1 & 0 \end{bmatrix}$$
+$$[a]_\times = \begin{bmatrix} 0 & -a_3 & a_2 \\\\ a_3 & 0 & -a_1 \\\\ -a_2 & a_1 & 0 \end{bmatrix}$$
 
 예를 들어 `a = (2, -1, 3)`이면:
 
-$$[a]_\times = \begin{bmatrix} 0 & -3 & -1 \\ 3 & 0 & -2 \\ 1 & 2 & 0 \end{bmatrix}$$
+$$[a]_\times = \begin{bmatrix} 0 & -3 & -1 \\\\ 3 & 0 & -2 \\\\ 1 & 2 & 0 \end{bmatrix}$$
 
 이렇게 만든 `[a]×`는 임의의 벡터 `b`에 곱하면 외적과 정확히 같은 결과를 낸다 — `[a]× b = a × b`. 즉 **외적(cross product)이라는 연산을 행렬 곱으로 바꿔치기한 것**이 반대칭행렬이다.
 
@@ -29,19 +29,19 @@ $$A = \underbrace{\tfrac{1}{2}(A + A^T)}_{\text{대칭}} + \underbrace{\tfrac{1}
 
 **직접 계산해보기** — `A = [[1, 4], [2, 3]]`이라 하면:
 
-$$A^T = \begin{bmatrix} 1 & 2 \\ 4 & 3 \end{bmatrix}$$
+$$A^T = \begin{bmatrix} 1 & 2 \\\\ 4 & 3 \end{bmatrix}$$
 
 대칭 부분:
 
-$$S = \tfrac{1}{2}(A+A^T) = \tfrac{1}{2}\begin{bmatrix} 2 & 6 \\ 6 & 6 \end{bmatrix} = \begin{bmatrix} 1 & 3 \\ 3 & 3 \end{bmatrix}$$
+$$S = \tfrac{1}{2}(A+A^T) = \tfrac{1}{2}\begin{bmatrix} 2 & 6 \\\\ 6 & 6 \end{bmatrix} = \begin{bmatrix} 1 & 3 \\\\ 3 & 3 \end{bmatrix}$$
 
 반대칭 부분:
 
-$$K = \tfrac{1}{2}(A-A^T) = \tfrac{1}{2}\begin{bmatrix} 0 & 2 \\ -2 & 0 \end{bmatrix} = \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}$$
+$$K = \tfrac{1}{2}(A-A^T) = \tfrac{1}{2}\begin{bmatrix} 0 & 2 \\\\ -2 & 0 \end{bmatrix} = \begin{bmatrix} 0 & 1 \\\\ -1 & 0 \end{bmatrix}$$
 
 검산 — 다시 더하면 `A`로 돌아온다:
 
-$$S+K = \begin{bmatrix} 1 & 3 \\ 3 & 3 \end{bmatrix} + \begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix} = \begin{bmatrix} 1 & 4 \\ 2 & 3 \end{bmatrix} = A$$
+$$S+K = \begin{bmatrix} 1 & 3 \\\\ 3 & 3 \end{bmatrix} + \begin{bmatrix} 0 & 1 \\\\ -1 & 0 \end{bmatrix} = \begin{bmatrix} 1 & 4 \\\\ 2 & 3 \end{bmatrix} = A$$
 
 `K`의 대각선이 0이고 `k_12 = -k_21`인 것도 확인된다 — 정의 그대로다.
 
