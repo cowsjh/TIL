@@ -94,7 +94,7 @@ ros2 topic hz 토픽
 ```
 ros2 topic bw 토픽
 ```
-> [!warning] 
+> **WARNING**
 > 대역폭은 `ros2 topic bw` 명령어로 생성된 구독에서 수신된 속도를 반영하며 플랫폼 자원과 QoS 설정에 영향을 받아 발행자의 대역폭과 정확히 일치하지 않을 수 있다.
 
 ## ros2 topic find
