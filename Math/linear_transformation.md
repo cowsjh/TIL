@@ -74,8 +74,7 @@ $$\begin{bmatrix} 1 & k \\\\ 0 & 1 \end{bmatrix}$$
 
 $$\begin{bmatrix} 1 & 0 \\\\ 0 & -1 \end{bmatrix}$$
 
-## 로보틱스와의 연결
+## 로보틱스
 
-- 로봇팔의 "2-2 변환 행렬과 연산자 (Transformation Matrix)"에서 다루는 회전 행렬 $R$ 도 결국 이 선형변환의 한 종류다 — 좌표계를 회전시키는 연산자(operator)나 좌표를 다른 프레임으로 매핑(mapping)하는 것 모두, 위에서 정의한 "선형결합을 보존하는 함수"라는 성질을 그대로 만족한다.
 - 다만 로봇팔의 위치 변환은 회전(선형) + 이동(translation)이 섞인 **아핀변환**이라 원점이 고정되지 않고, 그래서 동차좌표(homogeneous coordinate)로 4×4 행렬을 써서 억지로 선형화한다 — 순수 선형변환과 아핀변환의 차이는 별도로 정리할 만하다.
 - [역행렬, 열공간, 영공간 (Inverse Matrices, Column Space & Null Space)](./inverse_column_null_space.md): 표준행렬 $A$ 의 열공간은 $T$ 의 치역(range), 영공간은 $T(x)=0$ 이 되는 입력들의 집합이다 — 선형변환을 통째로 행렬의 언어로 재서술한 것.
