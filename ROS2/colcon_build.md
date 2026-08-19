@@ -12,7 +12,7 @@ source install/setup.bash
 **쉘에 경로를 등록 시켜 주는 것이다.**
 
 ## 빌드 순서
-- 각 패키지 `package.xml`의 `<depend>`/`<exec_depend>`로 [[DAG (Directed Acyclic Graph)|DAG]] 구성 → 위상정렬
+- 각 패키지 `package.xml`의 `<depend>`/`<exec_depend>`로 DAG(Directed Acyclic Graph) 구성 → 위상정렬
 - `exec_depend`(실행시점 의존)는 빌드 순서에 영향 없음
 
 ## build_type (`package.xml` → `<export><build_type>`)
