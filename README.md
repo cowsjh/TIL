@@ -23,3 +23,5 @@
     - [코사인 유사도-Consine Similarity](./Math/cosine_similarity.md)
 
     - [Gram-Schmidt](./Math/gram_schmidt.md)
+
+    - [정사영 Orthogonal Projection](./Math/orthogonal_projection.md)
