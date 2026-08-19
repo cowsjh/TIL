@@ -45,7 +45,7 @@ $cos\theta빗변 = 밑변$
 $cos\theta\left||\vec{u}\right||\frac{\vec{v}}{\left||\vec{v}\right||}$
 
 가 된다.
-여기서 $cos\theta$ 는 [[코사인 유사도-Consine Similarity|코사인 유사도]] 로 치환 된다.
+여기서 $cos\theta$ 는 [코사인 유사도](./cosine_similarity.md) 로 치환 된다.
 
 $\frac{u\cdot v}{\left||\vec{u}\right||\left||\vec{v}\right||}\left||\vec{u}\right||\frac{\vec{v}}{\left||\vec{v}\right||}$
 
