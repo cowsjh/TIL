@@ -1,11 +1,11 @@
 # *TIL*
 - **Python**
-    - [Git 명령어 정리](./Level01/080526/git.md)
-    - [파이선 입문-가상환경과 Numpy](./Level01/080626/venv_Numpy.md)
+    - [Git 명령어 정리](./Python/git.md)
+    - [파이선 입문-가상환경과 Numpy](./Python/venv_Numpy.md)
 - **ROS2**
-    - [ROS2](./Level01/081126/ros2.md)
-    - [QoS, DDS](./Level01/081226/qos.md)
-    - [토픽(Topic)](./Level01/081326/topic.md)
-    - [라이프사이클 노드](./Level01/081326/lifecycle_node.md)
-    - [Composition (노드 합성)](./Level01/081326/composition.md)
-    - [colcon 빌드](./Level01/081326/colcon_build.md)
+    - [ROS2](./ROS2/ros2.md)
+    - [QoS, DDS](./ROS2/qos.md)
+    - [토픽(Topic)](./ROS2/topic.md)
+    - [라이프사이클 노드](./ROS2/lifecycle_node.md)
+    - [Composition (노드 합성)](./ROS2/composition.md)
+    - [colcon 빌드](./ROS2/colcon_build.md)
