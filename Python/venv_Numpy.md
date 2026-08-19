@@ -34,7 +34,7 @@ $$
 $$O(n)$$
 자료의 순서와 크기에 따라 시간 복잡도는 다양하게 나오며, 그차이를 `worstcase` `averagecase` `bestcase` 로 나눌 수 있다. 
 
->[!note] 알고리즘의 시간 복잡도는 대부분 average case 를 말하지만 구하기 어려워 비슷한 worst case로 취급한다.
+>**NOTE — 알고리즘의 시간 복잡도는 대부분 average case 를 말하지만 구하기 어려워 비슷한 worst case로 취급한다.**
 
 
 
