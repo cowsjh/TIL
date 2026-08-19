@@ -42,20 +42,21 @@ $cos\theta빗변 = 밑변$
 
 벡터  = 방향\*크기 이므로
 
-$cos\theta\left||\vec{u}\right||$$\frac{\vec{v}}{\left||\vec{v}\right||}$
+$cos\theta\left||\vec{u}\right||\frac{\vec{v}}{\left||\vec{v}\right||}$
 
 가 된다.
 여기서 $cos\theta$ 는 [[코사인 유사도-Consine Similarity|코사인 유사도]] 로 치환 된다.
 
-$\frac{u\cdot v}{\left||\vec{u}\right||\left||\vec{v}\right||}$$\left||\vec{u}\right||$$\frac{\vec{v}}{\left||\vec{v}\right||}$
+$\frac{u\cdot v}{\left||\vec{u}\right||\left||\vec{v}\right||}\left||\vec{u}\right||\frac{\vec{v}}{\left||\vec{v}\right||}$
 
 $\left||\vec{u}\right||$ 는 지워지고
 
-$\frac{u\cdot v}{\left||\vec{v}\right||}$$\frac{\vec{v}}{\left||\vec{v}\right||}$
-$\frac{u\cdot v}{\left||\vec{v}\right||^2}$$\vec{v}$
+$\frac{u\cdot v}{\left||\vec{v}\right||}\frac{\vec{v}}{\left||\vec{v}\right||}$
+$\frac{u\cdot v}{\left||\vec{v}\right||^2}\vec{v}$
 
-$\left||\vec{v}\right||^2$ 는 $\vec{v} \cdot \vec{v}$ 로 치환 된다.
+$\left||\vec{v}\right||^2$는
+$\vec{v} \cdot \vec{v}$ 로 치환 된다.
 그러므로
 
-$\frac{\vec{u}\cdot \vec{v}}{\vec{v} \cdot \vec{v}}$$\vec{v}$
+$\frac{\vec{u}\cdot \vec{v}}{\vec{v} \cdot \vec{v}}\vec{v}$
 로 마무리 된다.
