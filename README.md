@@ -21,3 +21,5 @@
     - [행렬의 선형변환](./Math/linear_transformation.md)
 
     - [코사인 유사도-Consine Similarity](./Math/cosine_similarity.md)
+
+    - [Gram-Schmidt](./Math/gram_schmidt.md)
