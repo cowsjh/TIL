@@ -15,3 +15,5 @@
     - [로그법칙](./Math/log_laws.md)
     - [지수법칙](./Math/exponent_laws.md)
     - [역행렬, 열공간, 영공간](./Math/inverse_column_null_space.md)
+
+    - [고유값, 고유벡터](./Math/eigenvalue_eigenvector.md)
