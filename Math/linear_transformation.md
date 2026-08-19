@@ -1,6 +1,9 @@
 함수 $T$ : $R^n \rightarrow R^m$ 이 모든 벡터 $u, v$ 와 스칼라 $c$ 에대해
+
 $$T(u+v) = T(u) + T(v), $$
+
 $$ T(cu) = cT(u) $$
+
 를 만족 하면 선형 변환 이라 한다.
 두 조건을 합치면 **선형 결합을 보존한다**는 문장이 된다.
 
@@ -27,13 +30,18 @@ $=T(u)+T(v)$
 - $e_2=(0,1)$ 은 오른쪽으로 1만큼 밀려서 $(1,1)$ 로 이동 → $T(e_2)=(1,1)$
 
 이 두 결과를 열벡터로 나열하면 **표준행렬**이 바로 나온다.
+
 $$A = [\,T(e_1)\ \ T(e_2)\,] = \begin{bmatrix} 1 & 1 \\\\ 0 & 1 \end{bmatrix}$$
+
 ### 검산
 
 1. 선형성만으로 직접 계산: $x = 2e_1+3e_2$ 이므로
-$$T(x) = 2T(e_1)+3T(e_2) = 2(1,0)+3(1,1) = (5,3)$$
+
+   $$T(x) = 2T(e_1)+3T(e_2) = 2(1,0)+3(1,1) = (5,3)$$
+
 2. 방금 만든 행렬로 계산:
-$$Ax = \begin{bmatrix} 1 & 1 \\\\ 0 & 1 \end{bmatrix}\begin{bmatrix} 2 \\\\ 3 \end{bmatrix} = \begin{bmatrix} 1(2)+1(3) \\\\ 0(2)+1(3) \end{bmatrix} = \begin{bmatrix} 5 \\\\ 3 \end{bmatrix}$$
+
+   $$Ax = \begin{bmatrix} 1 & 1 \\\\ 0 & 1 \end{bmatrix}\begin{bmatrix} 2 \\\\ 3 \end{bmatrix} = \begin{bmatrix} 1(2)+1(3) \\\\ 0(2)+1(3) \end{bmatrix} = \begin{bmatrix} 5 \\\\ 3 \end{bmatrix}$$
 
  **행렬벡터곱도** $Ax$  = $A$의 열들을 $x$의 성분 비율로 **선형결합** 이고,
  **선형변환도** $T(x)=x_1T(e_1)+\cdots+x_nT(e_n)$ 로 정확히 같은 **선형결합** 이다.
@@ -42,10 +50,29 @@ $$Ax = \begin{bmatrix} 1 & 1 \\\\ 0 & 1 \end{bmatrix}\begin{bmatrix} 2 \\\\ 3 \e
 
 ### 선형변환 종류
 
-- **크기 (scaling)**: 각 축 방향으로 $k$배 늘이거나 줄인다. $\begin{bmatrix} k & 0 \\\\ 0 & k \end{bmatrix}$ (축마다 다른 배율도 가능: $\begin{bmatrix} k_1 & 0 \\\\ 0 & k_2 \end{bmatrix}$)
-- **회전 (rotation)**: 원점을 중심으로 각 $\theta$ 만큼 회전. $\begin{bmatrix} \cos\theta & -\sin\theta \\\\ \sin\theta & \cos\theta \end{bmatrix}$ — [[2-3 3D 회전 표현법 총정리]]의 2D 버전.
-- **전단 (shear)**: 한 축은 고정, 다른 방향은 첫 축 성분에 비례해 밀린다. $\begin{bmatrix} 1 & k \\\\ 0 & 1 \end{bmatrix}$ (평행사변형처럼 찌그러뜨리는 변환)
-- **반사 (reflection)**: 특정 축/직선을 기준으로 뒤집는다. 예를 들어 $x$축 기준 반사는 $\begin{bmatrix} 1 & 0 \\\\ 0 & -1 \end{bmatrix}$
+- **크기 (scaling)**: 각 축 방향으로 $k$배 늘이거나 줄인다.
+
+  $$\begin{bmatrix} k & 0 \\\\ 0 & k \end{bmatrix}$$
+
+  (축마다 다른 배율도 가능:)
+
+  $$\begin{bmatrix} k_1 & 0 \\\\ 0 & k_2 \end{bmatrix}$$
+
+- **회전 (rotation)**: 원점을 중심으로 각 $\theta$ 만큼 회전.
+
+  $$\begin{bmatrix} \cos\theta & -\sin\theta \\\\ \sin\theta & \cos\theta \end{bmatrix}$$
+
+  — [[2-3 3D 회전 표현법 총정리]]의 2D 버전.
+
+- **전단 (shear)**: 한 축은 고정, 다른 방향은 첫 축 성분에 비례해 밀린다.
+
+  $$\begin{bmatrix} 1 & k \\\\ 0 & 1 \end{bmatrix}$$
+
+  (평행사변형처럼 찌그러뜨리는 변환)
+
+- **반사 (reflection)**: 특정 축/직선을 기준으로 뒤집는다. 예를 들어 $x$축 기준 반사는
+
+  $$\begin{bmatrix} 1 & 0 \\\\ 0 & -1 \end{bmatrix}$$
 
 ## 로보틱스와의 연결
 
