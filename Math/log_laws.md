@@ -6,7 +6,7 @@ $\log_2 8 = 3$은 "2를 몇 제곱해야 8이 되는가?"에 대한 답이 3이�
 
 $$\log_a x = y \iff a^y = x$$
 
-로그와 지수는 서로 역함수 관계 — [[지수법칙 Laws of Exponents]]를 뒤집은 것뿐이다.
+로그와 지수는 서로 역함수 관계 — [지수법칙 Laws of Exponents](./exponent_laws.md)를 뒤집은 것뿐이다.
 
 ## 법칙 (지수법칙의 거울상)
 
@@ -30,7 +30,7 @@ $$\log_a x = \frac{\ln x}{\ln a}$$
 
 $\ln x = \log_e x$, $e \approx 2.71828\ldots$. $e$가 특별한 이유는 $\dfrac{d}{dx}e^x=e^x$ —
 미분해도 자기 자신이 나오는 유일한 지수함수의 밑이기 때문(자세한 유도는
-[[00_함수와_대수_기초]] 3절).
+"00_함수와_대수_기초" 3절).
 
 ## 왜 이름이 "로그"인가
 
@@ -40,5 +40,5 @@ logarithm = 그리스어 *logos*(비율, 말)+*arithmos*(수)의 합성어. 17�
 
 ## 연결
 
-- [[지수법칙 Laws of Exponents]] — 역함수 관계
-- $e^{-x}$가 실제로 쓰이는 예: [[시그모이드 함수 Sigmoid Function]]
+- [지수법칙 Laws of Exponents](./exponent_laws.md) — 역함수 관계
+- $e^{-x}$가 실제로 쓰이는 예: [시그모이드 함수 Sigmoid Function](./sigmoid.md)
