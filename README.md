@@ -17,3 +17,5 @@
     - [역행렬, 열공간, 영공간](./Math/inverse_column_null_space.md)
 
     - [고유값, 고유벡터](./Math/eigenvalue_eigenvector.md)
+
+    - [행렬의 선형변환](./Math/linear_transformation.md)
