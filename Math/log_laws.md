@@ -2,7 +2,7 @@ $\log_a x$ = "a를 몇 제곱해야 $X$가 되는가?"
 
 $$\log_a x = y \iff a^y = x$$
 
-로그와 지수는 서로 역함수 관계 — [[지수법칙 Laws of Exponents]]를 뒤집은 것뿐이다.
+로그와 지수는 서로 역함수 관계 — [지수법칙 Laws of Exponents](./exponent_laws.md)를 뒤집은 것뿐이다.
 
 ## 로그 법칙
 
@@ -26,4 +26,4 @@ $\dfrac{d}{dx}e^x=e^x$
 미분해도 자기 자신이 나오는 유일한 지수함수의 밑이기 때문
 
 
-- $e^{-x}$가 실제로 쓰이는 예: [[시그모이드 함수 Sigmoid Function]]
+- $e^{-x}$가 실제로 쓰이는 예: [시그모이드 함수 Sigmoid Function](./sigmoid.md)
