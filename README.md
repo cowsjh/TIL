@@ -26,3 +26,4 @@
     - [쉐이핑 함수 Shaping Functions](./Math/shaping_functions.md)
     - [가우스 소거법 (Gaussian Elimination)](./Math/gaussian_elimination.md)
     - [유리함수 Rational Function](./Math/rational_function.md)
+    - [복소수 곱셈과 2D 회전행렬의 동형사상](./Math/complex_rotation_isomorphism.md)
