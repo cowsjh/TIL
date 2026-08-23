@@ -27,3 +27,4 @@
     - [가우스 소거법 (Gaussian Elimination)](./Math/gaussian_elimination.md)
     - [유리함수 Rational Function](./Math/rational_function.md)
     - [복소수 곱셈과 2D 회전행렬의 동형사상](./Math/complex_rotation_isomorphism.md)
+    - [삼각함수의 특수값 (Special Values)](./Math/trig_special_values.md)
