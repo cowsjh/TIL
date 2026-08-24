@@ -31,3 +31,4 @@
     - [근의 공식](./Math/quadratic_formula.md)
     - [특성방정식](./Math/characteristic_equation.md)
     - [대각화 (Diagonalization)](./Math/diagonalization.md)
+    - [대칭 행렬 - Symmetric Matrix](./Math/symmetric_matrix.md)
