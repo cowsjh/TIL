@@ -30,3 +30,4 @@
     - [삼각함수의 특수값 (Special Values)](./Math/trig_special_values.md)
     - [근의 공식](./Math/quadratic_formula.md)
     - [특성방정식](./Math/characteristic_equation.md)
+    - [대각화 (Diagonalization)](./Math/diagonalization.md)
