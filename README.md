@@ -34,3 +34,5 @@
     - [특성방정식](./Math/characteristic_equation.md)
     - [대각화 (Diagonalization)](./Math/diagonalization.md)
     - [대칭 행렬 - Symmetric Matrix](./Math/symmetric_matrix.md)
+- **Linux**
+    - [SSH 공개키 인증 방식](./Linux/ssh_key_auth.md)
