@@ -1,7 +1,4 @@
 # *TIL*
-- **Python**
-    - [Git 명령어 정리](./Python/git.md)
-    - [파이선 입문-가상환경과 Numpy](./Python/venv_Numpy.md)
 - **ROS2**
     - [ROS2](./ROS2/ros2.md)
     - [QoS, DDS](./ROS2/qos.md)
@@ -36,9 +33,12 @@
     - [특성방정식](./Math/characteristic_equation.md)
     - [대각화 (Diagonalization)](./Math/diagonalization.md)
     - [대칭 행렬 - Symmetric Matrix](./Math/symmetric_matrix.md)
-- **Linux**
-    - [SSH 공개키 인증 방식](./Linux/ssh_key_auth.md)
 - **programming**
+    - **python**
+        - [Git 명령어 정리](./programming/python/git.md)
+        - [파이선 입문-가상환경과 Numpy](./programming/python/venv_Numpy.md)
     - **git**
         - [git rebase](./programming/git/rebase.md)
         - [git add/commit/push - 4개의 공간](./programming/git/add_commit_push.md)
+    - **linux**
+        - [SSH 공개키 인증 방식](./programming/linux/ssh_key_auth.md)

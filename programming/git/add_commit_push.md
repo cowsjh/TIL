@@ -53,6 +53,6 @@ git restore <파일>            # 작업공간의 수정 자체를 버림 (되�
 
 ## 연결
 
-- 명령어 전체 목록·브랜치는 [Git Basic](../../Python/git.md).
+- 명령어 전체 목록·브랜치는 [Git Basic](../python/git.md).
 - `push`의 반대편(원격 → 로컬)에서 히스토리를 이어 붙이는 `pull --rebase`의 원리는 [Git rebase](./rebase.md). 그림의 왼쪽 화살표 `pull or rebase`가 바로 그것.
 - `git revert`(반대 커밋을 새로 추가해 되돌림)와 위 `restore`의 차이도 [Git rebase](./rebase.md)에서 rebase와 비교해 정리해 둠.
