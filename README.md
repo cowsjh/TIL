@@ -35,9 +35,9 @@
     - [대칭 행렬 - Symmetric Matrix](./Math/symmetric_matrix.md)
 - **programming**
     - **python**
-        - [Git 명령어 정리](./programming/python/git.md)
         - [파이선 입문-가상환경과 Numpy](./programming/python/venv_Numpy.md)
     - **git**
+        - [git 기본 명령어](./programming/git/git_basics.md)
         - [git rebase](./programming/git/rebase.md)
         - [git add/commit/push - 4개의 공간](./programming/git/add_commit_push.md)
     - **linux**
