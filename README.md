@@ -1,4 +1,6 @@
 # *TIL*
+- **Hardware**
+    - [서보 버스와 서보보드](./Hardware/servo_bus.md)
 - **ROS2**
     - [ROS2](./ROS2/ros2.md)
     - [QoS, DDS](./ROS2/qos.md)
