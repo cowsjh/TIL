@@ -2,6 +2,7 @@
 - **Hardware**
     - [서보 버스와 서보보드](./Hardware/servo_bus.md)
     - [서보모터란 — servomechanism과 피드백 루프](./Hardware/servo_motor.md)
+    - [UART 물리 배선과 동기·비동기 통신](./Hardware/uart_wiring.md)
 - **ROS2**
     - [ROS2](./ROS2/ros2.md)
     - [QoS, DDS](./ROS2/qos.md)
