@@ -37,6 +37,7 @@
     - [특성방정식](./Math/characteristic_equation.md)
     - [대각화 (Diagonalization)](./Math/diagonalization.md)
     - [대칭 행렬 - Symmetric Matrix](./Math/symmetric_matrix.md)
+    - [특이 행렬 (Singular Matrix)](./Math/singular_matrix.md)
 - **programming**
     - **python**
         - [파이선 입문-가상환경과 Numpy](./programming/python/venv_Numpy.md)
