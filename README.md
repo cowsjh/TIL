@@ -39,6 +39,7 @@
     - [대칭 행렬 - Symmetric Matrix](./Math/symmetric_matrix.md)
     - [특이 행렬 (Singular Matrix)](./Math/singular_matrix.md)
     - [행렬의 변형과 형상 유지 — 고유값에서 대각화까지](./Math/eigen_to_diagonalization.md)
+    - [분산 Variance](./Math/variance.md)
 - **programming**
     - **python**
         - [파이선 입문-가상환경과 Numpy](./programming/python/venv_Numpy.md)
