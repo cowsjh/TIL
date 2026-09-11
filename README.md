@@ -3,7 +3,6 @@
     - [서보 버스와 서보보드](./Hardware/servo_bus.md)
     - [서보모터란 — servomechanism과 피드백 루프](./Hardware/servo_motor.md)
     - [UART 물리 배선과 동기·비동기 통신](./Hardware/uart_wiring.md)
-    - [SO-101 Phase0 캘리브레이션 — offset과 centering](./Hardware/servo_calibration.md)
 - **ROS2**
     - [ROS2](./ROS2/ros2.md)
     - [QoS, DDS](./ROS2/qos.md)
@@ -51,3 +50,5 @@
         - [git add/commit/push - 4개의 공간](./programming/git/add_commit_push.md)
     - **linux**
         - [SSH 공개키 인증 방식](./programming/linux/ssh_key_auth.md)
+- **project**
+    - [SO-101 Phase0 캘리브레이션 — offset과 centering](./project/servo_calibration.md)
