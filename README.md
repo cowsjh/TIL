@@ -51,4 +51,5 @@
     - **linux**
         - [SSH 공개키 인증 방식](./programming/linux/ssh_key_auth.md)
 - **project**
-    - [SO-101 Phase0 캘리브레이션 — offset과 centering](./project/servo_calibration.md)
+    - **so-101**
+        - [SO-101 Phase0 캘리브레이션 — offset과 centering](./project/so-101/servo_calibration.md)
