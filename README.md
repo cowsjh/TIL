@@ -54,3 +54,4 @@
 - **project**
     - **so-101**
         - [SO-101 Phase0 캘리브레이션 — offset과 centering](./project/so-101/servo_calibration.md)
+        - [SO-101 Phase0 URDF, RViz](./project/so-101/phase0_urdf_rviz.md)
