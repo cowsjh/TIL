@@ -41,6 +41,7 @@
     - [행렬의 변형과 형상 유지 — 고유값에서 대각화까지](./Math/eigen_to_diagonalization.md)
     - [분산 Variance](./Math/variance.md)
     - [기댓값의 성질 Properties of Expectation](./Math/expectation.md)
+    - [전달 함수 Transfer Function](./Math/transfer_function.md)
 - **programming**
     - **python**
         - [파이선 입문-가상환경과 Numpy](./programming/python/venv_Numpy.md)
